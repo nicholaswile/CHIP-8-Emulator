@@ -75,7 +75,7 @@ CHIP-8 uses a 16 button keypad for input. I mapped the 16 keys the following way
 | `F`           | E             |  
 | `V`           | F             |  
 
-### Emulator State
+### Emulator state
 The following keys control the emulator state. 
 | Key           | Function      |     
 | ------------- |:-------------:|
@@ -83,7 +83,7 @@ The following keys control the emulator state.
 | `F11`         | Reset         |  
 | `F12`         | Quit          |  
 
-#### Pause Screen
+#### Pause screen
 Pausing the game stops execution of CPU instructions. 
 | Game in play state | Game in pause state |     
 | -------------      |:-------------:|
