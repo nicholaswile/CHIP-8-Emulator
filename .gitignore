@@ -1,0 +1,7 @@
+src/include
+src/lib
+SDL2.dll
+game-roms/*
+!game-roms/.gitkeep
+test-roms/*
+!test-roms/.gitkeep
