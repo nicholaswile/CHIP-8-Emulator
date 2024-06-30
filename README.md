@@ -23,6 +23,8 @@ mingw32-make
 ./main
 ```
 
+I use SDL2-developer-2.30.4-mingw32. 
+
 ### Selecting a game
 The emulator reads from the list of ROMs specified in the config file. To add your own CHIP-8 ROMs, copy them into the ROMs folder (or if you want to create your own folder, specify it in the config file). Then run the emulator. You will be prompted to select a ROM. Type the number of the ROM you want to play, and press enter. The emulator will indicate whether the game was found and loaded succesfully. For example:
 
