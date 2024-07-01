@@ -26,7 +26,7 @@ mingw32-make
 I use SDL2-developer-2.30.4-mingw32. To compile the code on your machine, you'll need to download that version of SDL2, place the include/SDL2 and lib folders in the src folder, and the SDL2 DLL file in the same directory as the Makefile.
 
 ### Selecting a game
-The emulator reads from the list of ROMs specified in the config file. To add your own CHIP-8 ROMs, copy them into the ROMs folder (or if you want to create your own folder, specify it in the config file). Then run the emulator. You will be prompted to select a ROM. Type the number of the ROM you want to play, and press enter. The emulator will indicate whether the game was found and loaded succesfully. For example:
+The emulator reads from the list of ROMs specified in the config file. To add your own CHIP-8 ROMs, copy them into the ROMs folder (or if you want to create your own folder, specify it in the config file). **You must edit the config file to include the name of the ROM you want to test.** The config file I include with this repo is the same one that I used, so it lists the games I tested in their respective directories.  The emulator won't find the ROMs if you don't download them and place them in the correct folder. You can find ROMs [here](https://github.com/kripod/chip8-roms), [here](https://github.com/Timendus/chip8-test-suite), and [here](https://github.com/corax89/chip8-test-rom). Then run the emulator. You will be prompted to select a ROM. Type the number of the ROM you want to play, and press enter. The emulator will indicate whether the game was found and loaded succesfully. For example:
 
 ```bash
 Select a ROM to play on CHIP-8!
